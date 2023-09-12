@@ -11,7 +11,7 @@ public class AsyncTest {
 
 
     @Asynchronized(errorHandler = MyErrorHandler.class)
-    public String test(String arg1) {
+    public String m1(String arg1) {
 
         System.out.println("test start");
         try {
@@ -21,7 +21,6 @@ public class AsyncTest {
         }
 
         System.out.println("test end");
-
         return "succes";
     }
 
