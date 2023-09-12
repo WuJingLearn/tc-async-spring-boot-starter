@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b68832b-d72f-40d7-bd14-deb6d3870f27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/AsyncMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/AsyncMessageListenerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/AsyncOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/AsyncOperationSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/AsyncOperationSourceFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/DefaultErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/ErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/NoOPResultHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/ResultHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/annotation/Asynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/aspect/AsyncAspectSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/aspect/AsyncMethodInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/autoconfig/AsyncAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/autoconfig/AsyncProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/context/AsyncUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaboy/async/context/AsynccallContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/javaboy/async/demo/AsyncTest.java" afterDir="false" />
+    <list default="true" id="3b68832b-d72f-40d7-bd14-deb6d3870f27" name="Changes" comment="通用异步框架">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,12 +88,33 @@
       <workItem from="1693209376741" duration="251000" />
       <workItem from="1693273792000" duration="1936000" />
       <workItem from="1694517727259" duration="1191000" />
-      <workItem from="1694518930319" duration="6642000" />
+      <workItem from="1694518930319" duration="6970000" />
     </task>
+    <task id="LOCAL-00001" summary="通用异步框架">
+      <option name="closed" value="true" />
+      <created>1694528969456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694528969456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="通用异步框架">
+      <option name="closed" value="true" />
+      <created>1694528980438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694528980438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="通用异步框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="通用异步框架" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
