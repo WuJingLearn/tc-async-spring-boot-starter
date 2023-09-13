@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author:majin.wj
  */
-@ConditionalOnProperty(havingValue = "async.call.nameSrc")
+@ConditionalOnProperty(name = "async.call.nameSrc")
 @EnableConfigurationProperties(value = {AsyncProperties.class})
 @Configuration
 public class AsyncAutoConfiguration {
